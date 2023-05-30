@@ -458,5 +458,10 @@ namespace APIBookSaling.Services.Implements
             var cartDetailQuery = _dbContext.discounts.AsQueryable().Where(o => o.Active == "Y").ToList();
             return cartDetailQuery;
         }
+
+        public void Test()
+        {
+
+        }
     }
 }
