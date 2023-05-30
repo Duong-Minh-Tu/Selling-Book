@@ -25,5 +25,6 @@ namespace APIBookSaling.Services.Interfaces
         /// <returns></returns>
         List<ReviewsDto> FindAllReview(int idBook);
         List<Discount> FindAllDiscount();
+        void Test();
     }
 }
